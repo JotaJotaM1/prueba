@@ -38,6 +38,7 @@ img {
 .capa:hover {
   cursor: pointer;
   opacity: 0.3;
+  width: 300px;
   background: url("../img/icon-view.svg");
   background-color: hsl(178, 100%, 30%);
   background-repeat: no-repeat;
