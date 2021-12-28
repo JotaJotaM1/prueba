@@ -18,7 +18,7 @@ main {
 .containerbox {
   background-color: white;
   width: 327px;
-border-radius: 1.5rem;
+  border-radius: 1.5rem;
 }
 .img {
   width: 327px;
@@ -62,4 +62,33 @@ p {
   border-radius: 100%;
   margin-left: 30px;
   margin-right: 1rem;
+}
+
+@media (min-width: 1024px){
+.containerbox{
+  display: flex;
+  width: 730px;
+  height: 280px;
+}
+.article{
+  display: block;
+}
+.img{
+  height: auto;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.icons{
+  background-color: white;
+}
+.share{
+  color: white;
+  background-image: url('../img/avatar-michelle.png');
+}
+h4, p {
+  padding:10px 0 0 30px;
+}
 }
