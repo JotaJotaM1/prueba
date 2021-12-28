@@ -18,6 +18,7 @@ main {
 .containerbox {
   background-color: white;
   width: 327px;
+border-radius: 1.5rem;
 }
 .img {
   width: 327px;
